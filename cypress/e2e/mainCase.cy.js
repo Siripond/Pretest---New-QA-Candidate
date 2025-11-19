@@ -1,5 +1,5 @@
-import { login } from "./login.cy";
-import { recruitment } from "./recruitment.cy";
+import { login } from "./login";
+import { recruitment } from "./recruitment";
 
 describe("Pretest - New QA Candidate", () => {
   beforeEach("Start flow: Login and Navigate to Recruitment", () => {
